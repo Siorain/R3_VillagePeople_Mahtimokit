@@ -195,6 +195,7 @@
             this.Controls.Add(this.txt_Service_Name);
             this.Controls.Add(this.lbl_Service_Name);
             this.Name = "Services_popup";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Services_popup";
             this.ResumeLayout(false);
             this.PerformLayout();
