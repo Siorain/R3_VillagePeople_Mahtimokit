@@ -53,6 +53,7 @@
             this.btn_Service_Cancel.TabIndex = 76;
             this.btn_Service_Cancel.Text = "Peruuta";
             this.btn_Service_Cancel.UseVisualStyleBackColor = true;
+            this.btn_Service_Cancel.Click += new System.EventHandler(this.btn_Service_Cancel_Click);
             // 
             // btn_Service_Save
             // 
