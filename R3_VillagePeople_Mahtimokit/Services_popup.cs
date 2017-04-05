@@ -21,5 +21,10 @@ namespace R3_VillagePeople_Mahtimokit
         {
             this.Close();
         }
+
+        private void Services_popup_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
