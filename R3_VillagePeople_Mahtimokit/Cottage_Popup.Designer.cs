@@ -293,6 +293,7 @@
             this.btn_Cottage_Cancel.TabIndex = 91;
             this.btn_Cottage_Cancel.Text = "Peruuta";
             this.btn_Cottage_Cancel.UseVisualStyleBackColor = true;
+            this.btn_Cottage_Cancel.Click += new System.EventHandler(this.btn_Cottage_Cancel_Click_1);
             // 
             // Cottage_popup
             // 

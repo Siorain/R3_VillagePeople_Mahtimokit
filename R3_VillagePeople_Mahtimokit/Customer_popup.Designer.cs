@@ -296,6 +296,7 @@
             this.btn_Customer_Cancel.TabIndex = 91;
             this.btn_Customer_Cancel.Text = "Peruuta";
             this.btn_Customer_Cancel.UseVisualStyleBackColor = true;
+            this.btn_Customer_Cancel.Click += new System.EventHandler(this.btn_Customer_Cancel_Click);
             // 
             // Customer_popup
             // 
