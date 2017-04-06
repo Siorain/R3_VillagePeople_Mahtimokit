@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1_Office = new System.Windows.Forms.GroupBox();
+            this.grb_Office_Details = new System.Windows.Forms.GroupBox();
             this.lbl_Office_Description = new System.Windows.Forms.Label();
             this.lbl_Office_Name = new System.Windows.Forms.Label();
             this.txt_Office_Services = new System.Windows.Forms.TextBox();
@@ -42,35 +42,35 @@
             this.lbl_Office_Counter = new System.Windows.Forms.Label();
             this.txt_Office_Description = new System.Windows.Forms.TextBox();
             this.txt_Office_Name = new System.Windows.Forms.TextBox();
-            this.groupBox2_Office = new System.Windows.Forms.GroupBox();
+            this.grb_Office_Save_Cancel_Buttons = new System.Windows.Forms.GroupBox();
             this.btn_Office_Save = new System.Windows.Forms.Button();
             this.btn_Office_Cancel = new System.Windows.Forms.Button();
-            this.groupBox1_Office.SuspendLayout();
-            this.groupBox2_Office.SuspendLayout();
+            this.grb_Office_Details.SuspendLayout();
+            this.grb_Office_Save_Cancel_Buttons.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1_Office
+            // grb_Office_Details
             // 
-            this.groupBox1_Office.Controls.Add(this.lbl_Office_Description);
-            this.groupBox1_Office.Controls.Add(this.lbl_Office_Name);
-            this.groupBox1_Office.Controls.Add(this.txt_Office_Services);
-            this.groupBox1_Office.Controls.Add(this.lbl_Office_Services);
-            this.groupBox1_Office.Controls.Add(this.lbl_Office_City);
-            this.groupBox1_Office.Controls.Add(this.txt_Office_Adress);
-            this.groupBox1_Office.Controls.Add(this.lbl_Office_Adress);
-            this.groupBox1_Office.Controls.Add(this.txt_Office_Postal_Code);
-            this.groupBox1_Office.Controls.Add(this.lbl_Office_Postal_Code_City);
-            this.groupBox1_Office.Controls.Add(this.txt_Office_Counter);
-            this.groupBox1_Office.Controls.Add(this.lbl_Office_Counter);
-            this.groupBox1_Office.Controls.Add(this.txt_Office_Description);
-            this.groupBox1_Office.Controls.Add(this.txt_Office_Name);
-            this.groupBox1_Office.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1_Office.Location = new System.Drawing.Point(13, 13);
-            this.groupBox1_Office.Name = "groupBox1_Office";
-            this.groupBox1_Office.Size = new System.Drawing.Size(533, 269);
-            this.groupBox1_Office.TabIndex = 70;
-            this.groupBox1_Office.TabStop = false;
-            this.groupBox1_Office.Text = "Toimintapisteen tiedot";
+            this.grb_Office_Details.Controls.Add(this.lbl_Office_Description);
+            this.grb_Office_Details.Controls.Add(this.lbl_Office_Name);
+            this.grb_Office_Details.Controls.Add(this.txt_Office_Services);
+            this.grb_Office_Details.Controls.Add(this.lbl_Office_Services);
+            this.grb_Office_Details.Controls.Add(this.lbl_Office_City);
+            this.grb_Office_Details.Controls.Add(this.txt_Office_Adress);
+            this.grb_Office_Details.Controls.Add(this.lbl_Office_Adress);
+            this.grb_Office_Details.Controls.Add(this.txt_Office_Postal_Code);
+            this.grb_Office_Details.Controls.Add(this.lbl_Office_Postal_Code_City);
+            this.grb_Office_Details.Controls.Add(this.txt_Office_Counter);
+            this.grb_Office_Details.Controls.Add(this.lbl_Office_Counter);
+            this.grb_Office_Details.Controls.Add(this.txt_Office_Description);
+            this.grb_Office_Details.Controls.Add(this.txt_Office_Name);
+            this.grb_Office_Details.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grb_Office_Details.Location = new System.Drawing.Point(13, 13);
+            this.grb_Office_Details.Name = "grb_Office_Details";
+            this.grb_Office_Details.Size = new System.Drawing.Size(533, 269);
+            this.grb_Office_Details.TabIndex = 70;
+            this.grb_Office_Details.TabStop = false;
+            this.grb_Office_Details.Text = "Toimintapisteen tiedot";
             // 
             // lbl_Office_Description
             // 
@@ -196,15 +196,15 @@
             this.txt_Office_Name.Size = new System.Drawing.Size(287, 21);
             this.txt_Office_Name.TabIndex = 72;
             // 
-            // groupBox2_Office
+            // grb_Office_Save_Cancel_Buttons
             // 
-            this.groupBox2_Office.Controls.Add(this.btn_Office_Save);
-            this.groupBox2_Office.Controls.Add(this.btn_Office_Cancel);
-            this.groupBox2_Office.Location = new System.Drawing.Point(13, 288);
-            this.groupBox2_Office.Name = "groupBox2_Office";
-            this.groupBox2_Office.Size = new System.Drawing.Size(533, 66);
-            this.groupBox2_Office.TabIndex = 94;
-            this.groupBox2_Office.TabStop = false;
+            this.grb_Office_Save_Cancel_Buttons.Controls.Add(this.btn_Office_Save);
+            this.grb_Office_Save_Cancel_Buttons.Controls.Add(this.btn_Office_Cancel);
+            this.grb_Office_Save_Cancel_Buttons.Location = new System.Drawing.Point(13, 288);
+            this.grb_Office_Save_Cancel_Buttons.Name = "grb_Office_Save_Cancel_Buttons";
+            this.grb_Office_Save_Cancel_Buttons.Size = new System.Drawing.Size(533, 66);
+            this.grb_Office_Save_Cancel_Buttons.TabIndex = 94;
+            this.grb_Office_Save_Cancel_Buttons.TabStop = false;
             // 
             // btn_Office_Save
             // 
@@ -234,21 +234,21 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(559, 366);
-            this.Controls.Add(this.groupBox2_Office);
-            this.Controls.Add(this.groupBox1_Office);
+            this.Controls.Add(this.grb_Office_Save_Cancel_Buttons);
+            this.Controls.Add(this.grb_Office_Details);
             this.Name = "Office_popup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Toimintapisteen tietojenhallinta";
             this.Load += new System.EventHandler(this.Office_popup_Load);
-            this.groupBox1_Office.ResumeLayout(false);
-            this.groupBox1_Office.PerformLayout();
-            this.groupBox2_Office.ResumeLayout(false);
+            this.grb_Office_Details.ResumeLayout(false);
+            this.grb_Office_Details.PerformLayout();
+            this.grb_Office_Save_Cancel_Buttons.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.GroupBox groupBox1_Office;
+        private System.Windows.Forms.GroupBox grb_Office_Details;
         private System.Windows.Forms.Label lbl_Office_Description;
         private System.Windows.Forms.Label lbl_Office_Name;
         private System.Windows.Forms.TextBox txt_Office_Services;
@@ -262,7 +262,7 @@
         private System.Windows.Forms.Label lbl_Office_Counter;
         private System.Windows.Forms.TextBox txt_Office_Description;
         private System.Windows.Forms.TextBox txt_Office_Name;
-        private System.Windows.Forms.GroupBox groupBox2_Office;
+        private System.Windows.Forms.GroupBox grb_Office_Save_Cancel_Buttons;
         private System.Windows.Forms.Button btn_Office_Save;
         private System.Windows.Forms.Button btn_Office_Cancel;
     }

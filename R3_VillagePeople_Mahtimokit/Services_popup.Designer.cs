@@ -30,7 +30,7 @@
         {
             this.btn_Service_Save = new System.Windows.Forms.Button();
             this.btn_Service_Cancel = new System.Windows.Forms.Button();
-            this.groupBox1_Service = new System.Windows.Forms.GroupBox();
+            this.grb_Service_Details = new System.Windows.Forms.GroupBox();
             this.txt_Service_City = new System.Windows.Forms.TextBox();
             this.txt_Service_Adress = new System.Windows.Forms.TextBox();
             this.lbl_Service_Adress = new System.Windows.Forms.Label();
@@ -44,9 +44,9 @@
             this.lbl_Service_Description = new System.Windows.Forms.Label();
             this.txt_Service_Name = new System.Windows.Forms.TextBox();
             this.lbl_Service_Name = new System.Windows.Forms.Label();
-            this.groupBox2_Service = new System.Windows.Forms.GroupBox();
-            this.groupBox1_Service.SuspendLayout();
-            this.groupBox2_Service.SuspendLayout();
+            this.grb_Service_Cancel_Save_Buttons = new System.Windows.Forms.GroupBox();
+            this.grb_Service_Details.SuspendLayout();
+            this.grb_Service_Cancel_Save_Buttons.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_Service_Save
@@ -72,28 +72,28 @@
             this.btn_Service_Cancel.UseVisualStyleBackColor = true;
             this.btn_Service_Cancel.Click += new System.EventHandler(this.btn_Service_Cancel_Click_1);
             // 
-            // groupBox1_Service
+            // grb_Service_Details
             // 
-            this.groupBox1_Service.Controls.Add(this.txt_Service_City);
-            this.groupBox1_Service.Controls.Add(this.txt_Service_Adress);
-            this.groupBox1_Service.Controls.Add(this.lbl_Service_Adress);
-            this.groupBox1_Service.Controls.Add(this.txt_Service_Postal_Code);
-            this.groupBox1_Service.Controls.Add(this.lbl_Service_Postal_Code_City);
-            this.groupBox1_Service.Controls.Add(this.txt_Service_Max_Visitors);
-            this.groupBox1_Service.Controls.Add(this.lbl_Service_Max_Visitors);
-            this.groupBox1_Service.Controls.Add(this.txt_Service_Price);
-            this.groupBox1_Service.Controls.Add(this.lbl_Service_Price);
-            this.groupBox1_Service.Controls.Add(this.txt_Service_Description);
-            this.groupBox1_Service.Controls.Add(this.lbl_Service_Description);
-            this.groupBox1_Service.Controls.Add(this.txt_Service_Name);
-            this.groupBox1_Service.Controls.Add(this.lbl_Service_Name);
-            this.groupBox1_Service.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1_Service.Location = new System.Drawing.Point(13, 13);
-            this.groupBox1_Service.Name = "groupBox1_Service";
-            this.groupBox1_Service.Size = new System.Drawing.Size(533, 272);
-            this.groupBox1_Service.TabIndex = 92;
-            this.groupBox1_Service.TabStop = false;
-            this.groupBox1_Service.Text = "Palvelun tiedot";
+            this.grb_Service_Details.Controls.Add(this.txt_Service_City);
+            this.grb_Service_Details.Controls.Add(this.txt_Service_Adress);
+            this.grb_Service_Details.Controls.Add(this.lbl_Service_Adress);
+            this.grb_Service_Details.Controls.Add(this.txt_Service_Postal_Code);
+            this.grb_Service_Details.Controls.Add(this.lbl_Service_Postal_Code_City);
+            this.grb_Service_Details.Controls.Add(this.txt_Service_Max_Visitors);
+            this.grb_Service_Details.Controls.Add(this.lbl_Service_Max_Visitors);
+            this.grb_Service_Details.Controls.Add(this.txt_Service_Price);
+            this.grb_Service_Details.Controls.Add(this.lbl_Service_Price);
+            this.grb_Service_Details.Controls.Add(this.txt_Service_Description);
+            this.grb_Service_Details.Controls.Add(this.lbl_Service_Description);
+            this.grb_Service_Details.Controls.Add(this.txt_Service_Name);
+            this.grb_Service_Details.Controls.Add(this.lbl_Service_Name);
+            this.grb_Service_Details.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grb_Service_Details.Location = new System.Drawing.Point(13, 13);
+            this.grb_Service_Details.Name = "grb_Service_Details";
+            this.grb_Service_Details.Size = new System.Drawing.Size(533, 272);
+            this.grb_Service_Details.TabIndex = 92;
+            this.grb_Service_Details.TabStop = false;
+            this.grb_Service_Details.Text = "Palvelun tiedot";
             // 
             // txt_Service_City
             // 
@@ -219,15 +219,15 @@
             this.lbl_Service_Name.TabIndex = 92;
             this.lbl_Service_Name.Text = "Nimi:";
             // 
-            // groupBox2_Service
+            // grb_Service_Cancel_Save_Buttons
             // 
-            this.groupBox2_Service.Controls.Add(this.btn_Service_Save);
-            this.groupBox2_Service.Controls.Add(this.btn_Service_Cancel);
-            this.groupBox2_Service.Location = new System.Drawing.Point(13, 292);
-            this.groupBox2_Service.Name = "groupBox2_Service";
-            this.groupBox2_Service.Size = new System.Drawing.Size(533, 66);
-            this.groupBox2_Service.TabIndex = 93;
-            this.groupBox2_Service.TabStop = false;
+            this.grb_Service_Cancel_Save_Buttons.Controls.Add(this.btn_Service_Save);
+            this.grb_Service_Cancel_Save_Buttons.Controls.Add(this.btn_Service_Cancel);
+            this.grb_Service_Cancel_Save_Buttons.Location = new System.Drawing.Point(13, 292);
+            this.grb_Service_Cancel_Save_Buttons.Name = "grb_Service_Cancel_Save_Buttons";
+            this.grb_Service_Cancel_Save_Buttons.Size = new System.Drawing.Size(533, 66);
+            this.grb_Service_Cancel_Save_Buttons.TabIndex = 93;
+            this.grb_Service_Cancel_Save_Buttons.TabStop = false;
             // 
             // Services_popup
             // 
@@ -235,15 +235,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(559, 372);
-            this.Controls.Add(this.groupBox2_Service);
-            this.Controls.Add(this.groupBox1_Service);
+            this.Controls.Add(this.grb_Service_Cancel_Save_Buttons);
+            this.Controls.Add(this.grb_Service_Details);
             this.Name = "Services_popup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Palvelun tietojenhallinta";
             this.Load += new System.EventHandler(this.Services_popup_Load);
-            this.groupBox1_Service.ResumeLayout(false);
-            this.groupBox1_Service.PerformLayout();
-            this.groupBox2_Service.ResumeLayout(false);
+            this.grb_Service_Details.ResumeLayout(false);
+            this.grb_Service_Details.PerformLayout();
+            this.grb_Service_Cancel_Save_Buttons.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -251,7 +251,7 @@
         #endregion
         private System.Windows.Forms.Button btn_Service_Save;
         private System.Windows.Forms.Button btn_Service_Cancel;
-        private System.Windows.Forms.GroupBox groupBox1_Service;
+        private System.Windows.Forms.GroupBox grb_Service_Details;
         private System.Windows.Forms.TextBox txt_Service_City;
         private System.Windows.Forms.TextBox txt_Service_Adress;
         private System.Windows.Forms.Label lbl_Service_Adress;
@@ -265,6 +265,6 @@
         private System.Windows.Forms.Label lbl_Service_Description;
         private System.Windows.Forms.TextBox txt_Service_Name;
         private System.Windows.Forms.Label lbl_Service_Name;
-        private System.Windows.Forms.GroupBox groupBox2_Service;
+        private System.Windows.Forms.GroupBox grb_Service_Cancel_Save_Buttons;
     }
 }

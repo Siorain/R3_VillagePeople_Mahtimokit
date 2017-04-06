@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1_Customer = new System.Windows.Forms.GroupBox();
+            this.grb_Customer_Details = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -48,41 +48,41 @@
             this.lbl_Cottage_Price = new System.Windows.Forms.Label();
             this.txt_Cottage_Name = new System.Windows.Forms.TextBox();
             this.lbl_Cottage_Name = new System.Windows.Forms.Label();
-            this.groupBox2_Customer = new System.Windows.Forms.GroupBox();
+            this.grb_Customer_Save_Cancel_Buttons = new System.Windows.Forms.GroupBox();
             this.btn_Customer_Save = new System.Windows.Forms.Button();
             this.btn_Customer_Cancel = new System.Windows.Forms.Button();
-            this.groupBox1_Customer.SuspendLayout();
-            this.groupBox2_Customer.SuspendLayout();
+            this.grb_Customer_Details.SuspendLayout();
+            this.grb_Customer_Save_Cancel_Buttons.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1_Customer
+            // grb_Customer_Details
             // 
-            this.groupBox1_Customer.Controls.Add(this.textBox1);
-            this.groupBox1_Customer.Controls.Add(this.label1);
-            this.groupBox1_Customer.Controls.Add(this.textBox2);
-            this.groupBox1_Customer.Controls.Add(this.label2);
-            this.groupBox1_Customer.Controls.Add(this.textBox3);
-            this.groupBox1_Customer.Controls.Add(this.label3);
-            this.groupBox1_Customer.Controls.Add(this.txt_Cottage_Size);
-            this.groupBox1_Customer.Controls.Add(this.txt_Cottage_City);
-            this.groupBox1_Customer.Controls.Add(this.txt_Cottage_Adress);
-            this.groupBox1_Customer.Controls.Add(this.lbl_Cottage_Adress);
-            this.groupBox1_Customer.Controls.Add(this.txt_Cottage_Postal_Code);
-            this.groupBox1_Customer.Controls.Add(this.lbl_Cottage_Postal_Code_City);
-            this.groupBox1_Customer.Controls.Add(this.lbl_Cottage_Size);
-            this.groupBox1_Customer.Controls.Add(this.txt_Cottage_Max_Visitors);
-            this.groupBox1_Customer.Controls.Add(this.lbl_Cottage_Max_Visitors);
-            this.groupBox1_Customer.Controls.Add(this.txt_Cottage_Price);
-            this.groupBox1_Customer.Controls.Add(this.lbl_Cottage_Price);
-            this.groupBox1_Customer.Controls.Add(this.txt_Cottage_Name);
-            this.groupBox1_Customer.Controls.Add(this.lbl_Cottage_Name);
-            this.groupBox1_Customer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1_Customer.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1_Customer.Name = "groupBox1_Customer";
-            this.groupBox1_Customer.Size = new System.Drawing.Size(533, 267);
-            this.groupBox1_Customer.TabIndex = 100;
-            this.groupBox1_Customer.TabStop = false;
-            this.groupBox1_Customer.Text = "Asiakkaan tiedot";
+            this.grb_Customer_Details.Controls.Add(this.textBox1);
+            this.grb_Customer_Details.Controls.Add(this.label1);
+            this.grb_Customer_Details.Controls.Add(this.textBox2);
+            this.grb_Customer_Details.Controls.Add(this.label2);
+            this.grb_Customer_Details.Controls.Add(this.textBox3);
+            this.grb_Customer_Details.Controls.Add(this.label3);
+            this.grb_Customer_Details.Controls.Add(this.txt_Cottage_Size);
+            this.grb_Customer_Details.Controls.Add(this.txt_Cottage_City);
+            this.grb_Customer_Details.Controls.Add(this.txt_Cottage_Adress);
+            this.grb_Customer_Details.Controls.Add(this.lbl_Cottage_Adress);
+            this.grb_Customer_Details.Controls.Add(this.txt_Cottage_Postal_Code);
+            this.grb_Customer_Details.Controls.Add(this.lbl_Cottage_Postal_Code_City);
+            this.grb_Customer_Details.Controls.Add(this.lbl_Cottage_Size);
+            this.grb_Customer_Details.Controls.Add(this.txt_Cottage_Max_Visitors);
+            this.grb_Customer_Details.Controls.Add(this.lbl_Cottage_Max_Visitors);
+            this.grb_Customer_Details.Controls.Add(this.txt_Cottage_Price);
+            this.grb_Customer_Details.Controls.Add(this.lbl_Cottage_Price);
+            this.grb_Customer_Details.Controls.Add(this.txt_Cottage_Name);
+            this.grb_Customer_Details.Controls.Add(this.lbl_Cottage_Name);
+            this.grb_Customer_Details.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grb_Customer_Details.Location = new System.Drawing.Point(12, 12);
+            this.grb_Customer_Details.Name = "grb_Customer_Details";
+            this.grb_Customer_Details.Size = new System.Drawing.Size(533, 267);
+            this.grb_Customer_Details.TabIndex = 100;
+            this.grb_Customer_Details.TabStop = false;
+            this.grb_Customer_Details.Text = "Asiakkaan tiedot";
             // 
             // textBox1
             // 
@@ -265,15 +265,15 @@
             this.lbl_Cottage_Name.TabIndex = 107;
             this.lbl_Cottage_Name.Text = "Etunimi:";
             // 
-            // groupBox2_Customer
+            // grb_Customer_Save_Cancel_Buttons
             // 
-            this.groupBox2_Customer.Controls.Add(this.btn_Customer_Save);
-            this.groupBox2_Customer.Controls.Add(this.btn_Customer_Cancel);
-            this.groupBox2_Customer.Location = new System.Drawing.Point(12, 285);
-            this.groupBox2_Customer.Name = "groupBox2_Customer";
-            this.groupBox2_Customer.Size = new System.Drawing.Size(533, 66);
-            this.groupBox2_Customer.TabIndex = 101;
-            this.groupBox2_Customer.TabStop = false;
+            this.grb_Customer_Save_Cancel_Buttons.Controls.Add(this.btn_Customer_Save);
+            this.grb_Customer_Save_Cancel_Buttons.Controls.Add(this.btn_Customer_Cancel);
+            this.grb_Customer_Save_Cancel_Buttons.Location = new System.Drawing.Point(12, 285);
+            this.grb_Customer_Save_Cancel_Buttons.Name = "grb_Customer_Save_Cancel_Buttons";
+            this.grb_Customer_Save_Cancel_Buttons.Size = new System.Drawing.Size(533, 66);
+            this.grb_Customer_Save_Cancel_Buttons.TabIndex = 101;
+            this.grb_Customer_Save_Cancel_Buttons.TabStop = false;
             // 
             // btn_Customer_Save
             // 
@@ -303,21 +303,21 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(559, 364);
-            this.Controls.Add(this.groupBox2_Customer);
-            this.Controls.Add(this.groupBox1_Customer);
+            this.Controls.Add(this.grb_Customer_Save_Cancel_Buttons);
+            this.Controls.Add(this.grb_Customer_Details);
             this.Name = "Customer_popup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Asiakkaan tietojenhallinta";
-            this.groupBox1_Customer.ResumeLayout(false);
-            this.groupBox1_Customer.PerformLayout();
-            this.groupBox2_Customer.ResumeLayout(false);
+            this.grb_Customer_Details.ResumeLayout(false);
+            this.grb_Customer_Details.PerformLayout();
+            this.grb_Customer_Save_Cancel_Buttons.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1_Customer;
+        private System.Windows.Forms.GroupBox grb_Customer_Details;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox2;
@@ -337,7 +337,7 @@
         private System.Windows.Forms.Label lbl_Cottage_Price;
         private System.Windows.Forms.TextBox txt_Cottage_Name;
         private System.Windows.Forms.Label lbl_Cottage_Name;
-        private System.Windows.Forms.GroupBox groupBox2_Customer;
+        private System.Windows.Forms.GroupBox grb_Customer_Save_Cancel_Buttons;
         private System.Windows.Forms.Button btn_Customer_Save;
         private System.Windows.Forms.Button btn_Customer_Cancel;
     }

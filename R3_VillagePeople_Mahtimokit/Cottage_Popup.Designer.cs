@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1_Cottage = new System.Windows.Forms.GroupBox();
+            this.grb_Cottage_Details = new System.Windows.Forms.GroupBox();
             this.txt_Cottage_Size = new System.Windows.Forms.ComboBox();
             this.rbu_Cottage_Wlan_No = new System.Windows.Forms.RadioButton();
             this.rbu_Cottage_Wlan_Yes = new System.Windows.Forms.RadioButton();
@@ -47,40 +47,40 @@
             this.lbl_Cottage_Description = new System.Windows.Forms.Label();
             this.txt_Cottage_Name = new System.Windows.Forms.TextBox();
             this.lbl_Cottage_Name = new System.Windows.Forms.Label();
-            this.groupBox2_Cottage = new System.Windows.Forms.GroupBox();
+            this.grb_Cottage_Save_Cancel_Buttons = new System.Windows.Forms.GroupBox();
             this.btn_Cottage_Save = new System.Windows.Forms.Button();
             this.btn_Cottage_Cancel = new System.Windows.Forms.Button();
-            this.groupBox1_Cottage.SuspendLayout();
-            this.groupBox2_Cottage.SuspendLayout();
+            this.grb_Cottage_Details.SuspendLayout();
+            this.grb_Cottage_Save_Cancel_Buttons.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1_Cottage
+            // grb_Cottage_Details
             // 
-            this.groupBox1_Cottage.Controls.Add(this.txt_Cottage_Size);
-            this.groupBox1_Cottage.Controls.Add(this.rbu_Cottage_Wlan_No);
-            this.groupBox1_Cottage.Controls.Add(this.rbu_Cottage_Wlan_Yes);
-            this.groupBox1_Cottage.Controls.Add(this.txt_Cottage_City);
-            this.groupBox1_Cottage.Controls.Add(this.txt_Cottage_Adress);
-            this.groupBox1_Cottage.Controls.Add(this.lbl_Cottage_Adress);
-            this.groupBox1_Cottage.Controls.Add(this.txt_Cottage_Postal_Code);
-            this.groupBox1_Cottage.Controls.Add(this.lbl_Cottage_Postal_Code_City);
-            this.groupBox1_Cottage.Controls.Add(this.lbl_Cottage_Wlan);
-            this.groupBox1_Cottage.Controls.Add(this.lbl_Cottage_Size);
-            this.groupBox1_Cottage.Controls.Add(this.txt_Cottage_Max_Visitors);
-            this.groupBox1_Cottage.Controls.Add(this.lbl_Cottage_Max_Visitors);
-            this.groupBox1_Cottage.Controls.Add(this.txt_Cottage_Price);
-            this.groupBox1_Cottage.Controls.Add(this.lbl_Cottage_Price);
-            this.groupBox1_Cottage.Controls.Add(this.txt_Cottage_Description);
-            this.groupBox1_Cottage.Controls.Add(this.lbl_Cottage_Description);
-            this.groupBox1_Cottage.Controls.Add(this.txt_Cottage_Name);
-            this.groupBox1_Cottage.Controls.Add(this.lbl_Cottage_Name);
-            this.groupBox1_Cottage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1_Cottage.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1_Cottage.Name = "groupBox1_Cottage";
-            this.groupBox1_Cottage.Size = new System.Drawing.Size(533, 338);
-            this.groupBox1_Cottage.TabIndex = 0;
-            this.groupBox1_Cottage.TabStop = false;
-            this.groupBox1_Cottage.Text = "Mökin tiedot";
+            this.grb_Cottage_Details.Controls.Add(this.txt_Cottage_Size);
+            this.grb_Cottage_Details.Controls.Add(this.rbu_Cottage_Wlan_No);
+            this.grb_Cottage_Details.Controls.Add(this.rbu_Cottage_Wlan_Yes);
+            this.grb_Cottage_Details.Controls.Add(this.txt_Cottage_City);
+            this.grb_Cottage_Details.Controls.Add(this.txt_Cottage_Adress);
+            this.grb_Cottage_Details.Controls.Add(this.lbl_Cottage_Adress);
+            this.grb_Cottage_Details.Controls.Add(this.txt_Cottage_Postal_Code);
+            this.grb_Cottage_Details.Controls.Add(this.lbl_Cottage_Postal_Code_City);
+            this.grb_Cottage_Details.Controls.Add(this.lbl_Cottage_Wlan);
+            this.grb_Cottage_Details.Controls.Add(this.lbl_Cottage_Size);
+            this.grb_Cottage_Details.Controls.Add(this.txt_Cottage_Max_Visitors);
+            this.grb_Cottage_Details.Controls.Add(this.lbl_Cottage_Max_Visitors);
+            this.grb_Cottage_Details.Controls.Add(this.txt_Cottage_Price);
+            this.grb_Cottage_Details.Controls.Add(this.lbl_Cottage_Price);
+            this.grb_Cottage_Details.Controls.Add(this.txt_Cottage_Description);
+            this.grb_Cottage_Details.Controls.Add(this.lbl_Cottage_Description);
+            this.grb_Cottage_Details.Controls.Add(this.txt_Cottage_Name);
+            this.grb_Cottage_Details.Controls.Add(this.lbl_Cottage_Name);
+            this.grb_Cottage_Details.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grb_Cottage_Details.Location = new System.Drawing.Point(12, 12);
+            this.grb_Cottage_Details.Name = "grb_Cottage_Details";
+            this.grb_Cottage_Details.Size = new System.Drawing.Size(533, 338);
+            this.grb_Cottage_Details.TabIndex = 0;
+            this.grb_Cottage_Details.TabStop = false;
+            this.grb_Cottage_Details.Text = "Mökin tiedot";
             // 
             // txt_Cottage_Size
             // 
@@ -262,15 +262,15 @@
             this.lbl_Cottage_Name.TabIndex = 80;
             this.lbl_Cottage_Name.Text = "Nimi:";
             // 
-            // groupBox2_Cottage
+            // grb_Cottage_Save_Cancel_Buttons
             // 
-            this.groupBox2_Cottage.Controls.Add(this.btn_Cottage_Save);
-            this.groupBox2_Cottage.Controls.Add(this.btn_Cottage_Cancel);
-            this.groupBox2_Cottage.Location = new System.Drawing.Point(12, 356);
-            this.groupBox2_Cottage.Name = "groupBox2_Cottage";
-            this.groupBox2_Cottage.Size = new System.Drawing.Size(533, 66);
-            this.groupBox2_Cottage.TabIndex = 99;
-            this.groupBox2_Cottage.TabStop = false;
+            this.grb_Cottage_Save_Cancel_Buttons.Controls.Add(this.btn_Cottage_Save);
+            this.grb_Cottage_Save_Cancel_Buttons.Controls.Add(this.btn_Cottage_Cancel);
+            this.grb_Cottage_Save_Cancel_Buttons.Location = new System.Drawing.Point(12, 356);
+            this.grb_Cottage_Save_Cancel_Buttons.Name = "grb_Cottage_Save_Cancel_Buttons";
+            this.grb_Cottage_Save_Cancel_Buttons.Size = new System.Drawing.Size(533, 66);
+            this.grb_Cottage_Save_Cancel_Buttons.TabIndex = 99;
+            this.grb_Cottage_Save_Cancel_Buttons.TabStop = false;
             // 
             // btn_Cottage_Save
             // 
@@ -300,21 +300,21 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(559, 438);
-            this.Controls.Add(this.groupBox2_Cottage);
-            this.Controls.Add(this.groupBox1_Cottage);
+            this.Controls.Add(this.grb_Cottage_Save_Cancel_Buttons);
+            this.Controls.Add(this.grb_Cottage_Details);
             this.Name = "Cottage_popup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mökkien tietojenhallinta";
-            this.groupBox1_Cottage.ResumeLayout(false);
-            this.groupBox1_Cottage.PerformLayout();
-            this.groupBox2_Cottage.ResumeLayout(false);
+            this.grb_Cottage_Details.ResumeLayout(false);
+            this.grb_Cottage_Details.PerformLayout();
+            this.grb_Cottage_Save_Cancel_Buttons.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1_Cottage;
+        private System.Windows.Forms.GroupBox grb_Cottage_Details;
         private System.Windows.Forms.ComboBox txt_Cottage_Size;
         private System.Windows.Forms.RadioButton rbu_Cottage_Wlan_No;
         private System.Windows.Forms.RadioButton rbu_Cottage_Wlan_Yes;
@@ -333,7 +333,7 @@
         private System.Windows.Forms.Label lbl_Cottage_Description;
         private System.Windows.Forms.TextBox txt_Cottage_Name;
         private System.Windows.Forms.Label lbl_Cottage_Name;
-        private System.Windows.Forms.GroupBox groupBox2_Cottage;
+        private System.Windows.Forms.GroupBox grb_Cottage_Save_Cancel_Buttons;
         private System.Windows.Forms.Button btn_Cottage_Save;
         private System.Windows.Forms.Button btn_Cottage_Cancel;
     }
