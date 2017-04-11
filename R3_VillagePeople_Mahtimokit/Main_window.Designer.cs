@@ -83,7 +83,7 @@
             this.tbl_Order_1st_Col_Office_Customer = new System.Windows.Forms.TableLayoutPanel();
             this.tbl_Order_Customers = new System.Windows.Forms.TableLayoutPanel();
             this.tbl_Order_1st_Col_Office = new System.Windows.Forms.TableLayoutPanel();
-            this.cmb_Order_Office_Select = new System.Windows.Forms.ComboBox();
+            this.cbo_Order_Office_Select = new System.Windows.Forms.ComboBox();
             this.lbl_Order_Office = new System.Windows.Forms.Label();
             this.tbl_Order_1st_Col_Customer = new System.Windows.Forms.TableLayoutPanel();
             this.lsv_Order_Customers_All = new System.Windows.Forms.ListView();
@@ -185,7 +185,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button2 = new System.Windows.Forms.Button();
             this.lbl_History_Office = new System.Windows.Forms.Label();
-            this.cmb_History_Office_Select = new System.Windows.Forms.ComboBox();
+            this.cbo_History_Office_Select = new System.Windows.Forms.ComboBox();
             this.tbl_History_2nd_Col_Orders_Dates = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.lbl_History_Orders = new System.Windows.Forms.Label();
@@ -198,7 +198,7 @@
             this.lbl_History_Orders_Filter_Date_End = new System.Windows.Forms.Label();
             this.lbl_History_Orders_Filter_Date_Start = new System.Windows.Forms.Label();
             this.dtp_History_Orders_Filter_Date_Start = new System.Windows.Forms.DateTimePicker();
-            this.tdp_History_Orders_Filter_Date_End = new System.Windows.Forms.DateTimePicker();
+            this.dtp_History_Orders_Filter_Date_End = new System.Windows.Forms.DateTimePicker();
             this.tbl_History_3th_Col_Selected_Order_Details = new System.Windows.Forms.TableLayoutPanel();
             this.lsv_History_Order_Additional_Details = new System.Windows.Forms.ListView();
             this.lbl_History_Order_Additional_Details = new System.Windows.Forms.Label();
@@ -223,10 +223,18 @@
             this.lbl_Common_Settings_History_Start_Date = new System.Windows.Forms.Label();
             this.dtp_Common_Settings_History_Start_Date = new System.Windows.Forms.DateTimePicker();
             this.lbl_Common_Settings_History_End_Date = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+=======
+            this.tbl_Common_Settings_History_End_Date_Today = new System.Windows.Forms.TableLayoutPanel();
+            this.lbl_Common_Settings_History_End_Date_Today = new System.Windows.Forms.Label();
+            this.chk_Common_Settings_History_End_Date_Today = new System.Windows.Forms.CheckBox();
+            this.dtp_Common_Settings_History_End_Date_Custom = new System.Windows.Forms.DateTimePicker();
+            this.lbl_Common_Settings_History_End_Date_Custom = new System.Windows.Forms.Label();
+>>>>>>> refs/remotes/Azaziah-2nd/master
             this.tbl_Settings_2nd_Col_UI_Settings_Base = new System.Windows.Forms.TableLayoutPanel();
             this.tbl_Settings_2nd_Col_UI_Settings = new System.Windows.Forms.TableLayoutPanel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbo_UI_Settings_Language = new System.Windows.Forms.ComboBox();
             this.lbl_Settings_UI_Settings = new System.Windows.Forms.Label();
             this.lbl_UI_Settings_Language = new System.Windows.Forms.Label();
             this.lbl_UI_Settings_Font_Size = new System.Windows.Forms.Label();
@@ -279,6 +287,10 @@
             this.tbl_Settings_Base.SuspendLayout();
             this.tbl_Settings_1st_Col_Common_Settings_Base.SuspendLayout();
             this.tbl_Settings_1st_Col_Common_Settings.SuspendLayout();
+<<<<<<< HEAD
+=======
+            this.tbl_Common_Settings_History_End_Date_Today.SuspendLayout();
+>>>>>>> refs/remotes/Azaziah-2nd/master
             this.tbl_Settings_2nd_Col_UI_Settings_Base.SuspendLayout();
             this.tbl_Settings_2nd_Col_UI_Settings.SuspendLayout();
             this.tab_Manual.SuspendLayout();
@@ -378,7 +390,7 @@
             // 
             this.tbl_Order_1st_Col_Office.ColumnCount = 1;
             this.tbl_Order_1st_Col_Office.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tbl_Order_1st_Col_Office.Controls.Add(this.cmb_Order_Office_Select, 0, 1);
+            this.tbl_Order_1st_Col_Office.Controls.Add(this.cbo_Order_Office_Select, 0, 1);
             this.tbl_Order_1st_Col_Office.Controls.Add(this.lbl_Order_Office, 0, 0);
             this.tbl_Order_1st_Col_Office.Location = new System.Drawing.Point(7, 18);
             this.tbl_Order_1st_Col_Office.Name = "tbl_Order_1st_Col_Office";
@@ -388,16 +400,18 @@
             this.tbl_Order_1st_Col_Office.Size = new System.Drawing.Size(192, 64);
             this.tbl_Order_1st_Col_Office.TabIndex = 2;
             // 
-            // cmb_Order_Office_Select
+            // cbo_Order_Office_Select
             // 
-            this.cmb_Order_Office_Select.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmb_Order_Office_Select.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmb_Order_Office_Select.FormattingEnabled = true;
-            this.cmb_Order_Office_Select.Location = new System.Drawing.Point(3, 28);
-            this.cmb_Order_Office_Select.Name = "cmb_Order_Office_Select";
-            this.cmb_Order_Office_Select.Size = new System.Drawing.Size(186, 28);
-            this.cmb_Order_Office_Select.TabIndex = 105;
-            this.cmb_Order_Office_Select.Text = "Valitse toimipiste";
+            this.cbo_Order_Office_Select.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbo_Order_Office_Select.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbo_Order_Office_Select.FormattingEnabled = true;
+            this.cbo_Order_Office_Select.Items.AddRange(new object[] {
+            "Joensuu"});
+            this.cbo_Order_Office_Select.Location = new System.Drawing.Point(3, 28);
+            this.cbo_Order_Office_Select.Name = "cbo_Order_Office_Select";
+            this.cbo_Order_Office_Select.Size = new System.Drawing.Size(186, 28);
+            this.cbo_Order_Office_Select.TabIndex = 105;
+            this.cbo_Order_Office_Select.Text = "Valitse toimipiste";
             // 
             // lbl_Order_Office
             // 
@@ -1288,6 +1302,8 @@
             this.cbo_Office_Select.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.cbo_Office_Select.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_Office_Select.FormattingEnabled = true;
+            this.cbo_Office_Select.Items.AddRange(new object[] {
+            "Joensuu"});
             this.cbo_Office_Select.Location = new System.Drawing.Point(3, 23);
             this.cbo_Office_Select.Name = "cbo_Office_Select";
             this.cbo_Office_Select.Size = new System.Drawing.Size(279, 28);
@@ -1775,7 +1791,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.button2, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.lbl_History_Office, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.cmb_History_Office_Select, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.cbo_History_Office_Select, 0, 1);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(9, 473);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
@@ -1807,16 +1823,19 @@
             this.lbl_History_Office.TabIndex = 104;
             this.lbl_History_Office.Text = "Toimipisteen valinta";
             // 
-            // cmb_History_Office_Select
+            // cbo_History_Office_Select
             // 
-            this.cmb_History_Office_Select.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmb_History_Office_Select.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmb_History_Office_Select.FormattingEnabled = true;
-            this.cmb_History_Office_Select.Location = new System.Drawing.Point(3, 23);
-            this.cmb_History_Office_Select.Name = "cmb_History_Office_Select";
-            this.cmb_History_Office_Select.Size = new System.Drawing.Size(279, 28);
-            this.cmb_History_Office_Select.TabIndex = 105;
-            this.cmb_History_Office_Select.Text = "Valitse toimipiste";
+            this.cbo_History_Office_Select.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbo_History_Office_Select.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbo_History_Office_Select.FormattingEnabled = true;
+            this.cbo_History_Office_Select.Items.AddRange(new object[] {
+            "",
+            "Joensuu"});
+            this.cbo_History_Office_Select.Location = new System.Drawing.Point(3, 23);
+            this.cbo_History_Office_Select.Name = "cbo_History_Office_Select";
+            this.cbo_History_Office_Select.Size = new System.Drawing.Size(279, 28);
+            this.cbo_History_Office_Select.TabIndex = 105;
+            this.cbo_History_Office_Select.Text = "Valitse toimipiste";
             // 
             // tbl_History_2nd_Col_Orders_Dates
             // 
@@ -1949,7 +1968,7 @@
             this.tbl_History_Order_Dates.Controls.Add(this.lbl_History_Orders_Filter_Date_End, 1, 0);
             this.tbl_History_Order_Dates.Controls.Add(this.lbl_History_Orders_Filter_Date_Start, 0, 0);
             this.tbl_History_Order_Dates.Controls.Add(this.dtp_History_Orders_Filter_Date_Start, 0, 1);
-            this.tbl_History_Order_Dates.Controls.Add(this.tdp_History_Orders_Filter_Date_End, 1, 1);
+            this.tbl_History_Order_Dates.Controls.Add(this.dtp_History_Orders_Filter_Date_End, 1, 1);
             this.tbl_History_Order_Dates.Location = new System.Drawing.Point(3, 3);
             this.tbl_History_Order_Dates.Name = "tbl_History_Order_Dates";
             this.tbl_History_Order_Dates.RowCount = 2;
@@ -1986,15 +2005,15 @@
             this.dtp_History_Orders_Filter_Date_Start.TabIndex = 2;
             this.dtp_History_Orders_Filter_Date_Start.Value = new System.DateTime(2017, 1, 1, 0, 0, 0, 0);
             // 
-            // tdp_History_Orders_Filter_Date_End
+            // dtp_History_Orders_Filter_Date_End
             // 
-            this.tdp_History_Orders_Filter_Date_End.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.dtp_History_Orders_Filter_Date_End.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tdp_History_Orders_Filter_Date_End.Checked = false;
-            this.tdp_History_Orders_Filter_Date_End.Location = new System.Drawing.Point(139, 20);
-            this.tdp_History_Orders_Filter_Date_End.Name = "tdp_History_Orders_Filter_Date_End";
-            this.tdp_History_Orders_Filter_Date_End.Size = new System.Drawing.Size(131, 26);
-            this.tdp_History_Orders_Filter_Date_End.TabIndex = 3;
+            this.dtp_History_Orders_Filter_Date_End.Location = new System.Drawing.Point(139, 20);
+            this.dtp_History_Orders_Filter_Date_End.Name = "dtp_History_Orders_Filter_Date_End";
+            this.dtp_History_Orders_Filter_Date_End.Size = new System.Drawing.Size(131, 26);
+            this.dtp_History_Orders_Filter_Date_End.TabIndex = 3;
+            this.dtp_History_Orders_Filter_Date_End.Value = new System.DateTime(2017, 4, 8, 16, 25, 31, 0);
             // 
             // tbl_History_3th_Col_Selected_Order_Details
             // 
@@ -2053,9 +2072,9 @@
             this.lbl_History_Order_Additional_Details.AutoSize = true;
             this.lbl_History_Order_Additional_Details.Location = new System.Drawing.Point(9, 482);
             this.lbl_History_Order_Additional_Details.Name = "lbl_History_Order_Additional_Details";
-            this.lbl_History_Order_Additional_Details.Size = new System.Drawing.Size(81, 20);
+            this.lbl_History_Order_Additional_Details.Size = new System.Drawing.Size(78, 20);
             this.lbl_History_Order_Additional_Details.TabIndex = 104;
-            this.lbl_History_Order_Additional_Details.Text = "Lisätietoja";
+            this.lbl_History_Order_Additional_Details.Text = "Lisätiedot";
             // 
             // lsv_History_Order_Services
             // 
@@ -2192,6 +2211,12 @@
             // 
             // tbl_Settings_Base
             // 
+<<<<<<< HEAD
+=======
+            this.tbl_Settings_Base.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+>>>>>>> refs/remotes/Azaziah-2nd/master
             this.tbl_Settings_Base.BackColor = System.Drawing.Color.AntiqueWhite;
             this.tbl_Settings_Base.ColumnCount = 5;
             this.tbl_Settings_Base.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
@@ -2243,20 +2268,23 @@
             this.tbl_Settings_1st_Col_Common_Settings.Controls.Add(this.lbl_Common_Settings_History_Start_Date, 0, 3);
             this.tbl_Settings_1st_Col_Common_Settings.Controls.Add(this.dtp_Common_Settings_History_Start_Date, 0, 4);
             this.tbl_Settings_1st_Col_Common_Settings.Controls.Add(this.lbl_Common_Settings_History_End_Date, 0, 6);
-            this.tbl_Settings_1st_Col_Common_Settings.Controls.Add(this.dateTimePicker1, 0, 7);
+            this.tbl_Settings_1st_Col_Common_Settings.Controls.Add(this.tbl_Common_Settings_History_End_Date_Today, 0, 7);
+            this.tbl_Settings_1st_Col_Common_Settings.Controls.Add(this.dtp_Common_Settings_History_End_Date_Custom, 0, 9);
+            this.tbl_Settings_1st_Col_Common_Settings.Controls.Add(this.lbl_Common_Settings_History_End_Date_Custom, 0, 8);
             this.tbl_Settings_1st_Col_Common_Settings.Location = new System.Drawing.Point(15, 16);
             this.tbl_Settings_1st_Col_Common_Settings.Name = "tbl_Settings_1st_Col_Common_Settings";
-            this.tbl_Settings_1st_Col_Common_Settings.RowCount = 10;
-            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.69338F));
-            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.756098F));
-            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.823529F));
-            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.823529F));
-            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.013937F));
-            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.407665F));
-            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.823529F));
-            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.823529F));
-            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 124F));
+            this.tbl_Settings_1st_Col_Common_Settings.RowCount = 11;
+            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 26.16155F));
+            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.89832F));
+            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.49577F));
+            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.46831F));
+            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.29506F));
+            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.680984F));
+            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tbl_Settings_1st_Col_Common_Settings.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44F));
             this.tbl_Settings_1st_Col_Common_Settings.Size = new System.Drawing.Size(286, 416);
             this.tbl_Settings_1st_Col_Common_Settings.TabIndex = 0;
             // 
@@ -2265,10 +2293,21 @@
             this.cbo_Common_Settings_Default_Office.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbo_Common_Settings_Default_Office.FormattingEnabled = true;
+<<<<<<< HEAD
             this.cbo_Common_Settings_Default_Office.Location = new System.Drawing.Point(3, 99);
             this.cbo_Common_Settings_Default_Office.Name = "cbo_Common_Settings_Default_Office";
             this.cbo_Common_Settings_Default_Office.Size = new System.Drawing.Size(280, 28);
             this.cbo_Common_Settings_Default_Office.TabIndex = 16;
+=======
+            this.cbo_Common_Settings_Default_Office.Items.AddRange(new object[] {
+            "",
+            "Joensuu"});
+            this.cbo_Common_Settings_Default_Office.Location = new System.Drawing.Point(3, 93);
+            this.cbo_Common_Settings_Default_Office.Name = "cbo_Common_Settings_Default_Office";
+            this.cbo_Common_Settings_Default_Office.Size = new System.Drawing.Size(280, 28);
+            this.cbo_Common_Settings_Default_Office.TabIndex = 16;
+            this.cbo_Common_Settings_Default_Office.SelectedIndexChanged += new System.EventHandler(this.cbo_Common_Settings_Default_Office_SelectedIndexChanged);
+>>>>>>> refs/remotes/Azaziah-2nd/master
             // 
             // lbl_Settings_Common_Settings
             // 
@@ -2284,7 +2323,7 @@
             // 
             this.lbl_Common_Settings_Default_Office.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lbl_Common_Settings_Default_Office.AutoSize = true;
-            this.lbl_Common_Settings_Default_Office.Location = new System.Drawing.Point(3, 76);
+            this.lbl_Common_Settings_Default_Office.Location = new System.Drawing.Point(3, 70);
             this.lbl_Common_Settings_Default_Office.Name = "lbl_Common_Settings_Default_Office";
             this.lbl_Common_Settings_Default_Office.Size = new System.Drawing.Size(122, 20);
             this.lbl_Common_Settings_Default_Office.TabIndex = 1;
@@ -2293,7 +2332,7 @@
             // lbl_Common_Settings_History_Start_Date
             // 
             this.lbl_Common_Settings_History_Start_Date.AutoSize = true;
-            this.lbl_Common_Settings_History_Start_Date.Location = new System.Drawing.Point(3, 137);
+            this.lbl_Common_Settings_History_Start_Date.Location = new System.Drawing.Point(3, 139);
             this.lbl_Common_Settings_History_Start_Date.Name = "lbl_Common_Settings_History_Start_Date";
             this.lbl_Common_Settings_History_Start_Date.Size = new System.Drawing.Size(214, 20);
             this.lbl_Common_Settings_History_Start_Date.TabIndex = 17;
@@ -2303,31 +2342,98 @@
             // 
             this.dtp_Common_Settings_History_Start_Date.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtp_Common_Settings_History_Start_Date.Checked = false;
-            this.dtp_Common_Settings_History_Start_Date.Location = new System.Drawing.Point(3, 165);
+            this.dtp_Common_Settings_History_Start_Date.Location = new System.Drawing.Point(3, 175);
             this.dtp_Common_Settings_History_Start_Date.Name = "dtp_Common_Settings_History_Start_Date";
             this.dtp_Common_Settings_History_Start_Date.Size = new System.Drawing.Size(280, 26);
             this.dtp_Common_Settings_History_Start_Date.TabIndex = 18;
             this.dtp_Common_Settings_History_Start_Date.Value = new System.DateTime(2017, 1, 1, 0, 0, 0, 0);
+            this.dtp_Common_Settings_History_Start_Date.ValueChanged += new System.EventHandler(this.dtp_Common_Settings_History_Start_Date_ValueChanged);
             // 
             // lbl_Common_Settings_History_End_Date
             // 
             this.lbl_Common_Settings_History_End_Date.AutoSize = true;
-            this.lbl_Common_Settings_History_End_Date.Location = new System.Drawing.Point(3, 210);
+            this.lbl_Common_Settings_History_End_Date.Location = new System.Drawing.Point(3, 226);
             this.lbl_Common_Settings_History_End_Date.Name = "lbl_Common_Settings_History_End_Date";
             this.lbl_Common_Settings_History_End_Date.Size = new System.Drawing.Size(229, 20);
             this.lbl_Common_Settings_History_End_Date.TabIndex = 19;
             this.lbl_Common_Settings_History_End_Date.Text = "Varaushistorian päättymispäivä";
             // 
-            // dateTimePicker1
+            // tbl_Common_Settings_History_End_Date_Today
             // 
-            this.dateTimePicker1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tbl_Common_Settings_History_End_Date_Today.ColumnCount = 2;
+            this.tbl_Common_Settings_History_End_Date_Today.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.42857F));
+            this.tbl_Common_Settings_History_End_Date_Today.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.57143F));
+            this.tbl_Common_Settings_History_End_Date_Today.Controls.Add(this.lbl_Common_Settings_History_End_Date_Today, 0, 0);
+            this.tbl_Common_Settings_History_End_Date_Today.Controls.Add(this.chk_Common_Settings_History_End_Date_Today, 1, 0);
+            this.tbl_Common_Settings_History_End_Date_Today.Location = new System.Drawing.Point(3, 259);
+            this.tbl_Common_Settings_History_End_Date_Today.Name = "tbl_Common_Settings_History_End_Date_Today";
+            this.tbl_Common_Settings_History_End_Date_Today.RowCount = 1;
+            this.tbl_Common_Settings_History_End_Date_Today.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tbl_Common_Settings_History_End_Date_Today.Size = new System.Drawing.Size(280, 55);
+            this.tbl_Common_Settings_History_End_Date_Today.TabIndex = 22;
+            // 
+            // lbl_Common_Settings_History_End_Date_Today
+            // 
+            this.lbl_Common_Settings_History_End_Date_Today.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lbl_Common_Settings_History_End_Date_Today.AutoSize = true;
+            this.lbl_Common_Settings_History_End_Date_Today.Location = new System.Drawing.Point(3, 17);
+            this.lbl_Common_Settings_History_End_Date_Today.Name = "lbl_Common_Settings_History_End_Date_Today";
+            this.lbl_Common_Settings_History_End_Date_Today.Size = new System.Drawing.Size(163, 20);
+            this.lbl_Common_Settings_History_End_Date_Today.TabIndex = 0;
+            this.lbl_Common_Settings_History_End_Date_Today.Text = "Käytä nykyistä päivää:";
+            // 
+            // chk_Common_Settings_History_End_Date_Today
+            // 
+            this.chk_Common_Settings_History_End_Date_Today.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.chk_Common_Settings_History_End_Date_Today.AutoSize = true;
+            this.chk_Common_Settings_History_End_Date_Today.Checked = true;
+            this.chk_Common_Settings_History_End_Date_Today.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chk_Common_Settings_History_End_Date_Today.Location = new System.Drawing.Point(174, 20);
+            this.chk_Common_Settings_History_End_Date_Today.Name = "chk_Common_Settings_History_End_Date_Today";
+            this.chk_Common_Settings_History_End_Date_Today.Size = new System.Drawing.Size(15, 14);
+            this.chk_Common_Settings_History_End_Date_Today.TabIndex = 1;
+            this.chk_Common_Settings_History_End_Date_Today.UseVisualStyleBackColor = true;
+            this.chk_Common_Settings_History_End_Date_Today.CheckedChanged += new System.EventHandler(this.chk_Common_Settings_History_End_Date_Today_CheckedChanged);
+            // 
+            // dtp_Common_Settings_History_End_Date_Custom
+            // 
+            this.dtp_Common_Settings_History_End_Date_Custom.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dateTimePicker1.Checked = false;
-            this.dateTimePicker1.Location = new System.Drawing.Point(3, 240);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(280, 26);
-            this.dateTimePicker1.TabIndex = 20;
+            this.dtp_Common_Settings_History_End_Date_Custom.Location = new System.Drawing.Point(3, 340);
+            this.dtp_Common_Settings_History_End_Date_Custom.Name = "dtp_Common_Settings_History_End_Date_Custom";
+            this.dtp_Common_Settings_History_End_Date_Custom.Size = new System.Drawing.Size(280, 26);
+            this.dtp_Common_Settings_History_End_Date_Custom.TabIndex = 21;
+            this.dtp_Common_Settings_History_End_Date_Custom.ValueChanged += new System.EventHandler(this.dtp_Common_Settings_History_End_Date_Custom_ValueChanged);
+            // 
+            // lbl_Common_Settings_History_End_Date_Custom
+            // 
+            this.lbl_Common_Settings_History_End_Date_Custom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lbl_Common_Settings_History_End_Date_Custom.AutoSize = true;
+            this.lbl_Common_Settings_History_End_Date_Custom.Location = new System.Drawing.Point(3, 317);
+            this.lbl_Common_Settings_History_End_Date_Custom.Name = "lbl_Common_Settings_History_End_Date_Custom";
+            this.lbl_Common_Settings_History_End_Date_Custom.Size = new System.Drawing.Size(176, 20);
+            this.lbl_Common_Settings_History_End_Date_Custom.TabIndex = 23;
+            this.lbl_Common_Settings_History_End_Date_Custom.Text = "Mukautettu päivämäärä";
+            // 
+            // tbl_Settings_2nd_Col_UI_Settings_Base
+            // 
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.ColumnCount = 3;
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 92F));
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.Controls.Add(this.tbl_Settings_2nd_Col_UI_Settings, 1, 1);
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.Location = new System.Drawing.Point(513, 100);
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.Name = "tbl_Settings_2nd_Col_UI_Settings_Base";
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.RowCount = 3;
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3F));
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 94F));
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3F));
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.Size = new System.Drawing.Size(318, 449);
+            this.tbl_Settings_2nd_Col_UI_Settings_Base.TabIndex = 3;
             // 
             // tbl_Settings_2nd_Col_UI_Settings_Base
             // 
@@ -2356,7 +2462,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbl_Settings_2nd_Col_UI_Settings.ColumnCount = 1;
             this.tbl_Settings_2nd_Col_UI_Settings.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tbl_Settings_2nd_Col_UI_Settings.Controls.Add(this.comboBox1, 0, 2);
+            this.tbl_Settings_2nd_Col_UI_Settings.Controls.Add(this.cbo_UI_Settings_Language, 0, 2);
             this.tbl_Settings_2nd_Col_UI_Settings.Controls.Add(this.lbl_Settings_UI_Settings, 0, 0);
             this.tbl_Settings_2nd_Col_UI_Settings.Controls.Add(this.lbl_UI_Settings_Language, 0, 1);
             this.tbl_Settings_2nd_Col_UI_Settings.Controls.Add(this.lbl_UI_Settings_Font_Size, 0, 3);
@@ -2373,16 +2479,16 @@
             this.tbl_Settings_2nd_Col_UI_Settings.Size = new System.Drawing.Size(286, 416);
             this.tbl_Settings_2nd_Col_UI_Settings.TabIndex = 1;
             // 
-            // comboBox1
+            // cbo_UI_Settings_Language
             // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.cbo_UI_Settings_Language.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(3, 110);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(280, 28);
-            this.comboBox1.TabIndex = 16;
-            this.comboBox1.Text = "Suomi";
+            this.cbo_UI_Settings_Language.FormattingEnabled = true;
+            this.cbo_UI_Settings_Language.Location = new System.Drawing.Point(3, 110);
+            this.cbo_UI_Settings_Language.Name = "cbo_UI_Settings_Language";
+            this.cbo_UI_Settings_Language.Size = new System.Drawing.Size(280, 28);
+            this.cbo_UI_Settings_Language.TabIndex = 16;
+            this.cbo_UI_Settings_Language.Text = "Suomi";
             // 
             // lbl_Settings_UI_Settings
             // 
@@ -2450,6 +2556,7 @@
             // 
             this.trv_Manual.Location = new System.Drawing.Point(8, 15);
             this.trv_Manual.Name = "trv_Manual";
+<<<<<<< HEAD
             treeNode1.Name = "Node4";
             treeNode1.Text = "Toimipisteen valinta";
             treeNode2.Name = "Node5";
@@ -2516,6 +2623,74 @@
             treeNode27,
             treeNode28});
             this.trv_Manual.Size = new System.Drawing.Size(308, 586);
+=======
+            treeNode113.Name = "Node4";
+            treeNode113.Text = "Toimipisteen valinta";
+            treeNode114.Name = "Node5";
+            treeNode114.Text = "Asiakkaiden valinta";
+            treeNode115.Name = "Node6";
+            treeNode115.Text = "Mökin valinta";
+            treeNode116.Name = "Node7";
+            treeNode116.Text = "Mökin yhteenveto";
+            treeNode117.Name = "Node8";
+            treeNode117.Text = "Lisäpalveluiden valinta";
+            treeNode118.Name = "Node9";
+            treeNode118.Text = "Tilauksen yhteenveto";
+            treeNode119.Name = "Node0";
+            treeNode119.Text = "Uusi varaus";
+            treeNode120.Name = "Node10";
+            treeNode120.Text = "Asiakkaiden hallinta";
+            treeNode121.Name = "Node11";
+            treeNode121.Text = "Toimipisteen valinta";
+            treeNode122.Name = "Node12";
+            treeNode122.Text = "Toimipisteen palvelut";
+            treeNode123.Name = "Node13";
+            treeNode123.Text = "Toimipisteen mökit";
+            treeNode124.Name = "Node1";
+            treeNode124.Text = "Tietojen hallinta";
+            treeNode125.Name = "Node2";
+            treeNode125.Text = "Varaushistoria";
+            treeNode126.Name = "Node3";
+            treeNode126.Text = "Asetukset";
+            treeNode127.Name = "Node4";
+            treeNode127.Text = "Toimipisteen valinta";
+            treeNode128.Name = "Node5";
+            treeNode128.Text = "Asiakkaiden valinta";
+            treeNode129.Name = "Node6";
+            treeNode129.Text = "Mökin valinta";
+            treeNode130.Name = "Node7";
+            treeNode130.Text = "Mökin yhteenveto";
+            treeNode131.Name = "Node8";
+            treeNode131.Text = "Lisäpalveluiden valinta";
+            treeNode132.Name = "Node9";
+            treeNode132.Text = "Tilauksen yhteenveto";
+            treeNode133.Name = "Node0";
+            treeNode133.Text = "Uusi varaus";
+            treeNode134.Name = "Node10";
+            treeNode134.Text = "Asiakkaiden hallinta";
+            treeNode135.Name = "Node11";
+            treeNode135.Text = "Toimipisteen valinta";
+            treeNode136.Name = "Node12";
+            treeNode136.Text = "Toimipisteen palvelut";
+            treeNode137.Name = "Node13";
+            treeNode137.Text = "Toimipisteen mökit";
+            treeNode138.Name = "Node1";
+            treeNode138.Text = "Tietojen hallinta";
+            treeNode139.Name = "Node2";
+            treeNode139.Text = "Varaushistoria";
+            treeNode140.Name = "Node3";
+            treeNode140.Text = "Asetukset";
+            this.trv_Manual.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode119,
+            treeNode124,
+            treeNode125,
+            treeNode126,
+            treeNode133,
+            treeNode138,
+            treeNode139,
+            treeNode140});
+            this.trv_Manual.Size = new System.Drawing.Size(413, 485);
+>>>>>>> refs/remotes/Azaziah-2nd/master
             this.trv_Manual.TabIndex = 0;
             // 
             // Main_window
@@ -2602,6 +2777,11 @@
             this.tbl_Settings_1st_Col_Common_Settings_Base.ResumeLayout(false);
             this.tbl_Settings_1st_Col_Common_Settings.ResumeLayout(false);
             this.tbl_Settings_1st_Col_Common_Settings.PerformLayout();
+<<<<<<< HEAD
+=======
+            this.tbl_Common_Settings_History_End_Date_Today.ResumeLayout(false);
+            this.tbl_Common_Settings_History_End_Date_Today.PerformLayout();
+>>>>>>> refs/remotes/Azaziah-2nd/master
             this.tbl_Settings_2nd_Col_UI_Settings_Base.ResumeLayout(false);
             this.tbl_Settings_2nd_Col_UI_Settings.ResumeLayout(false);
             this.tbl_Settings_2nd_Col_UI_Settings.PerformLayout();
@@ -2623,7 +2803,6 @@
         private System.Windows.Forms.TableLayoutPanel tbl_Order_1st_Col_Office_Customer;
         private System.Windows.Forms.TableLayoutPanel tbl_Order_Customers;
         private System.Windows.Forms.TableLayoutPanel tbl_Order_1st_Col_Office;
-        private System.Windows.Forms.ComboBox cmb_Order_Office_Select;
         private System.Windows.Forms.Label lbl_Order_Office;
         private System.Windows.Forms.TableLayoutPanel tbl_Order_1st_Col_Customer;
         private System.Windows.Forms.TableLayoutPanel tbl_Order_Customer_Search;
@@ -2674,7 +2853,6 @@
         private System.Windows.Forms.TableLayoutPanel tbl_Edit_2nd_Col_Offices_Services;
         private System.Windows.Forms.TableLayoutPanel tbl_Edit_2nd_Col_Offices;
         private System.Windows.Forms.Label lbl_Office;
-        private System.Windows.Forms.ComboBox cbo_Office_Select;
         private System.Windows.Forms.TableLayoutPanel tbl_Edit_2nd_Col_Offices_Buttons;
         private System.Windows.Forms.Button btn_Office_Delete;
         private System.Windows.Forms.Button btn_Office_Edit;
@@ -2718,12 +2896,11 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label lbl_History_Office;
-        private System.Windows.Forms.ComboBox cmb_History_Office_Select;
         private System.Windows.Forms.TableLayoutPanel tbl_History_Order_Dates;
         private System.Windows.Forms.Label lbl_History_Orders_Filter_Date_End;
         private System.Windows.Forms.Label lbl_History_Orders_Filter_Date_Start;
         private System.Windows.Forms.DateTimePicker dtp_History_Orders_Filter_Date_Start;
-        private System.Windows.Forms.DateTimePicker tdp_History_Orders_Filter_Date_End;
+        private System.Windows.Forms.DateTimePicker dtp_History_Orders_Filter_Date_End;
         private System.Windows.Forms.TableLayoutPanel tbl_History_3th_Col_Selected_Order_Details;
         private System.Windows.Forms.ListView lsv_History_Order_Additional_Details;
         private System.Windows.Forms.Label lbl_History_Order_Additional_Details;
@@ -2757,16 +2934,23 @@
         private System.Windows.Forms.TableLayoutPanel tbl_Settings_1st_Col_Common_Settings;
         private System.Windows.Forms.Label lbl_Settings_Common_Settings;
         private System.Windows.Forms.Label lbl_Common_Settings_Default_Office;
-        private System.Windows.Forms.ComboBox cbo_Common_Settings_Default_Office;
         private System.Windows.Forms.Label lbl_Common_Settings_History_Start_Date;
         private System.Windows.Forms.DateTimePicker dtp_Common_Settings_History_Start_Date;
         private System.Windows.Forms.Label lbl_Common_Settings_History_End_Date;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TableLayoutPanel tbl_Settings_2nd_Col_UI_Settings;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbo_UI_Settings_Language;
         private System.Windows.Forms.Label lbl_Settings_UI_Settings;
         private System.Windows.Forms.Label lbl_UI_Settings_Language;
         private System.Windows.Forms.Label lbl_UI_Settings_Font_Size;
         private System.Windows.Forms.ComboBox cbo_UI_Settings_Font_Size;
+        private System.Windows.Forms.ComboBox cbo_Common_Settings_Default_Office;
+        private System.Windows.Forms.ComboBox cbo_History_Office_Select;
+        private System.Windows.Forms.ComboBox cbo_Office_Select;
+        private System.Windows.Forms.ComboBox cbo_Order_Office_Select;
+        private System.Windows.Forms.TableLayoutPanel tbl_Common_Settings_History_End_Date_Today;
+        private System.Windows.Forms.Label lbl_Common_Settings_History_End_Date_Today;
+        private System.Windows.Forms.CheckBox chk_Common_Settings_History_End_Date_Today;
+        private System.Windows.Forms.DateTimePicker dtp_Common_Settings_History_End_Date_Custom;
+        private System.Windows.Forms.Label lbl_Common_Settings_History_End_Date_Custom;
     }
 }
